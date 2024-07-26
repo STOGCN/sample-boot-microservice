@@ -6,26 +6,19 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Launch SpringGreetApplication1",
-            "request": "launch",
-            "mainClass": "lab.microservice.hello.SpringGreetApplication",
-            "projectName": "sample-microservice-hello",
-            "vmArgs": "-Dserver.port=8100"
-        },
-        {
-            "type": "java",
-            "name": "Launch SpringGreetApplication2",
-            "request": "launch",
-            "mainClass": "lab.microservice.hello.SpringGreetApplication",
-            "projectName": "sample-microservice-hello",
-            "vmArgs": "-Dserver.port=8200"
-        }
-        {
-            "type": "java",
             "name": "Launch EurekaNamingServer",
             "request": "launch",
             "mainClass": "lab.microservice.namingserver.SpringBootMicroserviceEurekaNamingServerApplication",
             "projectName": "sample-microservice-eureka-naming-server"
+        },
+        {
+            "type": "java",
+            "name": "Launch SpringGreetApplication1",
+            "request": "launch",
+            "mainClass": "lab.microservice.hello.SpringGreetApplication",
+            "projectName": "sample-microservice-hello",
+            "args": "--server.port=8100"
         }
+
     ]
 }
