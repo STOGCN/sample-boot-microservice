@@ -6,30 +6,23 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Launch SpringGreetApplication",
+            "name": "Launch SpringGreetApplication1",
             "request": "launch",
-            "mainClass": "lab.microservice.currencyconversion.SpringGreetApplication",
-            "projectName": "sample-microservice-hello"
+            "mainClass": "lab.microservice.hello.SpringGreetApplication",
+            "projectName": "sample-microservice-hello",
+            "vmArgs": "-Dserver.port=8100"
         },
         {
             "type": "java",
-            "name": "Launch 1SpringBootUserRepoApplication",
+            "name": "Launch SpringGreetApplication2",
             "request": "launch",
-            "mainClass": "lab.microservice.userrepo.SpringBootUserRepoApplication",
-            "projectName": "sample-microservice-userrepo",
-            "args": "--server.port=8000"
-        },
+            "mainClass": "lab.microservice.hello.SpringGreetApplication",
+            "projectName": "sample-microservice-hello",
+            "vmArgs": "-Dserver.port=8200"
+        }
         {
             "type": "java",
-            "name": "Launch 2SpringBootUserRepoApplication",
-            "request": "launch",
-            "mainClass": "lab.microservice.userrepo.SpringBootUserRepoApplication",
-            "projectName": "sample-microservice-userrepo",
-            "args": "--server.port=8001"
-        },
-        {
-            "type": "java",
-            "name": "Launch SpringBootMicroserviceEurekaNamingServerApplication",
+            "name": "Launch EurekaNamingServer",
             "request": "launch",
             "mainClass": "lab.microservice.namingserver.SpringBootMicroserviceEurekaNamingServerApplication",
             "projectName": "sample-microservice-eureka-naming-server"
