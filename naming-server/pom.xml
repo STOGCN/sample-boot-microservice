@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>th.ac.mfu</groupId>
-	<artifactId>sample-microservice-eureka-naming-server</artifactId>
+	<artifactId>naming-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<description>Eureka Server for naming service</description>
 	<properties>

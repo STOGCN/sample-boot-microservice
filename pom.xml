@@ -17,8 +17,8 @@
 	</properties>
 	
 	<modules>
-		<module>sample-microservice-eureka-naming-server</module>
-		<module>sample-microservice-hello</module>
+		<module>naming-server</module>
+		<module>hello-service</module>
 	</modules>
 	
 	<dependencies>
