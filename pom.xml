@@ -19,6 +19,7 @@
 	<modules>
 		<module>naming-server</module>
 		<module>hello-service</module>
+		<module>user-service</module>
 	</modules>
 	
 	<dependencies>
